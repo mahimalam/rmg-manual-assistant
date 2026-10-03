@@ -1,0 +1,1 @@
+"""Manual-grounded RMG assistant."""

@@ -1,0 +1,43 @@
+[
+  {
+    "id": "H01", "manual": "S-7200A Service Manuel.pdf", "kind": "setting",
+    "question": "On the Brother S-7200A, I want my presser foot lifter solenoid to turn on with the fastest possible response time, and I don't mind if it produces the greatest operating noise. What is the exact function number and value I need to set, and what specific prerequisite function setting must be active for this to be enabled?",
+    "search_question": "On the Brother S-7200A, I want my presser foot lifter solenoid to turn on with the fastest possible response time, and I don't mind if it produces the greatest operating noise. What is the exact function number and value I need to set, and what specific prerequisite function setting must be active for this to be enabled?",
+    "setting_id": "function:39", "requirement": {"setting_id":"function:35","value":"0"},
+    "expected_source_phrase": "response is fastest", "expected_facts": "Function 39=10, with Function 35=0."
+  },
+  {
+    "id": "H02", "manual": "S-7200A Service Manuel.pdf", "kind": "exclusion",
+    "question": "I am performing standard maintenance on my Brother S-7200A-453. I've placed the confirmation paper under the rotary hook, lifted the presser foot, and ran the machine for 8 seconds. According to the manual, exactly how wide (in mm) should the spattered oil band be on the paper for this specific machine subclass?",
+    "search_question": "I am performing standard maintenance on my Brother S-7200A-453. I've placed the confirmation paper under the rotary hook, lifted the presser foot, and ran the machine for 8 seconds. According to the manual, exactly how wide (in mm) should the spattered oil band be on the paper for this specific machine subclass?",
+    "expected_subclass": "-453", "expected_source_phrase": "amount is not necessary",
+    "expected_facts": "No numeric oil-band target applies to this procedure for the -453 fully dry subclass; do not return zero or the 5-10 mm paper clearance as band width."
+  },
+  {
+    "id": "H03", "manual": "S-7200A Service Manuel.pdf", "kind": "setting",
+    "question": "S-7200A মেশিনের প্রেসার ফুটের সোলেনয়েড সবচেয়ে দ্রুত চালু করতে চাই। বেশি শব্দ হলে সমস্যা নেই। কোন ফাংশনে কত মান দেব এবং আগে কোন ফাংশনের সেটিং লাগবে?",
+    "search_question": "For the S-7200A, how do I set the presser foot solenoid for the fastest response even if it makes the most noise, and which function setting is required first?",
+    "setting_id": "function:39", "requirement": {"setting_id":"function:35","value":"0"},
+    "expected_source_phrase": "response is fastest", "expected_facts": "Function 39=10, with Function 35=0, explained in Bengali."
+  },
+  {
+    "id": "H04", "manual": "S-7200A Service Manuel.pdf", "kind": "scope_control",
+    "question": "On the Brother S-7200A-403, does the rotary hook lubrication checking procedure apply, or is this subclass excluded as fully dry?",
+    "search_question": "On the Brother S-7200A-403, does the rotary hook lubrication checking procedure apply, or is this subclass excluded as fully dry?",
+    "expected_subclass": "-403", "expected_source_phrase": "Adjusting the rotary hook lubrication amount (-40[] / 43[])",
+    "expected_facts": "-403 is within the -40[] heading scope; the -45[] dry exclusion must not be applied to it. Follow the procedure's stated conditions and cautions."
+  },
+  {
+    "id": "H05", "manual": "S-7200A Service Manuel.pdf", "kind": "setting",
+    "question": "On the Brother S-7200A, what setting of Function No. 35 enables Function No. 38?",
+    "search_question": "On the Brother S-7200A, what setting of Function No. 35 enables Function No. 38?",
+    "setting_id": "function:38", "requirement": {"setting_id":"function:35","value":"1"},
+    "expected_source_phrase": "Only enabled when Function No. 35 is set to", "expected_facts": "Function 38 requires Function 35=1, not 0."
+  },
+  {
+    "id": "H06", "manual": "S-7200A Service Manuel.pdf", "kind": "unsupported",
+    "question": "How do I change the Wi-Fi password on the Brother S-7200A?",
+    "search_question": "How do I change the Wi-Fi password on the Brother S-7200A?",
+    "expected_facts": "Refuse unsupported Wi-Fi instructions without inventing steps."
+  }
+]

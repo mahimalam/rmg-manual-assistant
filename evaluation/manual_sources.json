@@ -1,0 +1,23 @@
+[
+  {
+    "filename": "Brother-S7300A-instruction.pdf",
+    "url": "https://download.brother.com/pub/com/ism/pdf/s7300a_in.pdf",
+    "pages": 108,
+    "sha256": "a2c7883b4b450654b2e816f89abceecffc116832c8220fd2fae773df74333e15",
+    "purpose": "development stress test; not independent thesis qualification"
+  },
+  {
+    "filename": "Juki-MO6800SD-DD10-instruction.pdf",
+    "url": "https://www.juki.co.jp/industrial_j/download_j/manual_j/mo6800s_d/mo6800dd10/menu/pdf/instruction_eg.pdf",
+    "pages": 50,
+    "sha256": "2ef32583d92b01d965b98091112c5a74fbb0ab68630ca432911700f4b4b4a23d",
+    "purpose": "development stress test; not independent thesis qualification"
+  },
+  {
+    "filename": "Juki-DDL9000CS-instruction.pdf",
+    "url": "https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl9000cs/menu/ddl9000cs/pdf/instruction_eg.pdf",
+    "pages": 113,
+    "sha256": "760f44a8ad8a67fa733e2fd2250bcdd1d9343b68ddc6bc84919fff9627f5c0a5",
+    "purpose": "development stress test; not independent thesis qualification"
+  }
+]

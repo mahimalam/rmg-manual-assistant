@@ -1,0 +1,22 @@
+<style>
+:root { --workspace-ink: #18272e; --workspace-muted: #52656c; }
+.stMainBlockContainer { max-width: 1180px; padding-top: 2.3rem; padding-bottom: 3rem; }
+h1 { font-size: 2rem !important; letter-spacing: -.055rem; font-weight: 650 !important; }
+h2, h3 { letter-spacing: -.02rem; }
+[data-testid="stCaptionContainer"] { color: var(--workspace-muted); }
+[data-testid="stMetric"] { background: #fff; border: 1px solid #dde4df; border-radius: 12px; padding: 14px 18px; }
+[data-testid="stMetricValue"] { font-size: 1.45rem; font-weight: 600; }
+[data-testid="stMetricLabel"] { color: var(--workspace-muted); }
+[data-testid="stTabs"] { margin-top: 1.1rem; }
+[data-testid="stTabs"] button[role="tab"] { font-weight: 550; padding: 10px 4px; }
+[data-testid="stForm"] { background: #fff; border-color: #d9e2dc; border-radius: 14px; padding: 22px; }
+[data-testid="stTextArea"] textarea { line-height: 1.65; }
+[data-testid="stExpander"] { border-color: #dde4df; border-radius: 10px; }
+button:focus-visible, textarea:focus-visible { outline: 2px solid #116d65 !important; outline-offset: 3px; }
+@media (max-width: 640px) {
+  .stMainBlockContainer { padding: 1.1rem 1rem 2rem; }
+  h1 { font-size: 1.6rem !important; }
+  [data-testid="stForm"] { padding: 14px; }
+  [data-testid="stMetric"] { padding: 10px 12px; }
+}
+</style>

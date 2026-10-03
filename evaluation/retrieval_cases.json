@@ -1,0 +1,40 @@
+{
+  "basis": "Saved English interpretations from the 2026-09-26 exploratory run. Development material, not independently labelled or held out.",
+  "cases": [
+    {
+      "id": "B01",
+      "search_question": "What should be done first when an error code appears on the S-7200A operation panel?",
+      "expect_refusal": false
+    },
+    {
+      "id": "B02",
+      "search_question": "Which tensions should be checked if the upper thread is not tight on the S-7200A?",
+      "expect_refusal": false
+    },
+    {
+      "id": "B03",
+      "search_question": "How long should one wait after turning off power before opening the faceplate of the S-7200A?",
+      "expect_refusal": false
+    },
+    {
+      "id": "J01",
+      "search_question": "What type of oil should be used to fill the DDL-8700's oil pan up to the HIGH mark?",
+      "expect_refusal": false
+    },
+    {
+      "id": "J02",
+      "search_question": "What is the standard clutch motor wattage for the DDL-8700?",
+      "expect_refusal": false
+    },
+    {
+      "id": "J03",
+      "search_question": "What happens when the needle thread tension nut on the DDL-8700 is turned clockwise?",
+      "expect_refusal": false
+    },
+    {
+      "id": "O01",
+      "search_question": "How do I change the Wi-Fi password on the S-7200A machine?",
+      "expect_refusal": true
+    }
+  ]
+}

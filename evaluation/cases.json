@@ -1,0 +1,52 @@
+[
+  {
+    "id": "B01",
+    "manual": "S-7200A Service Manuel.pdf",
+    "question_bn": "S-7200A অপারেশন প্যানেলে ত্রুটি কোড দেখালে প্রথমে কী করতে হবে?",
+    "expected_pages": [63],
+    "expected_facts": ["Note the error code shown before investigating it."]
+  },
+  {
+    "id": "B02",
+    "manual": "S-7200A Service Manuel.pdf",
+    "question_bn": "S-7200A এর উপরের সুতা টাইট না হলে কোন টেনশনগুলো পরীক্ষা করতে হবে?",
+    "expected_pages": [59],
+    "expected_facts": ["Upper thread tension may be too weak or lower thread tension too strong."]
+  },
+  {
+    "id": "B03",
+    "manual": "S-7200A Service Manuel.pdf",
+    "question_bn": "S-7200A এর ফেস প্লেট খোলার আগে পাওয়ার বন্ধ করে কতক্ষণ অপেক্ষা করতে হবে?",
+    "expected_pages": [3, 46],
+    "expected_facts": ["Turn off and unplug power; wait at least five minutes before opening the face plate."]
+  },
+  {
+    "id": "J01",
+    "manual": "instruction_eg.pdf",
+    "question_bn": "DDL-8700 এর তেলের প্যান HIGH চিহ্ন পর্যন্ত কোন তেল দিয়ে ভরতে হবে?",
+    "expected_pages": [3, 5],
+    "expected_facts": ["JUKI New Defrix Oil No. 1 is specified for the oil pan up to HIGH mark A."]
+  },
+  {
+    "id": "J02",
+    "manual": "instruction_eg.pdf",
+    "question_bn": "DDL-8700 এর স্ট্যান্ডার্ড ক্লাচ মোটর কত ওয়াট?",
+    "expected_pages": [14],
+    "expected_facts": ["The standard clutch motor output is 400 W (1/2 HP)."]
+  },
+  {
+    "id": "J03",
+    "manual": "instruction_eg.pdf",
+    "question_bn": "DDL-8700 এর সুই সুতার টেনশন নাট ঘড়ির কাঁটার দিকে ঘোরালে কী হয়?",
+    "expected_pages": [10],
+    "expected_facts": ["Clockwise rotation of the thread tension nut increases needle thread tension."]
+  },
+  {
+    "id": "O01",
+    "manual": "S-7200A Service Manuel.pdf",
+    "question_bn": "S-7200A মেশিনে Wi-Fi পাসওয়ার্ড কীভাবে পরিবর্তন করব?",
+    "expected_pages": [],
+    "expect_refusal": true,
+    "expected_facts": ["The manual does not support Wi-Fi password instructions."]
+  }
+]
